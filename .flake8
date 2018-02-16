@@ -1,0 +1,18 @@
+# -*- conf -*-
+# flake8 settings (stolen/edited from Spack).
+#
+# Below we describe which flake8 checks we ignore and what the
+# rationale is.
+#
+# Let people line things up nicely:
+# - E129: visually indented line with same indent as next logical line
+# - E221: multiple spaces before operator
+# - E241: multiple spaces after ','
+# - E272: multiple spaces before keyword
+#
+# Let people use terse Python features:
+# - E731: lambda expressions
+#
+[flake8]
+ignore = E129,E221,E241,E272,E731
+max-line-length = 79
